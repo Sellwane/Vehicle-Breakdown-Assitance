@@ -9,6 +9,12 @@
 .navbar-brand > span {
     color: rgb(71, 66, 66);
 }
+.dropdown-menu {
+	background-color: #3d3d3d;
+}
+.dropdown-item {
+	color: blue;
+}
 
 
 /* About us */

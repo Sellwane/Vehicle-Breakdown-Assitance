@@ -1,0 +1,43 @@
+
+.carousel-inner {
+    height: 950px;
+}
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+.navbar-brand > span {
+    color: rgb(71, 66, 66);
+}
+.dropdown-menu .dropdown-item:hover {
+	background-color: rgb(63, 59, 59);
+} 
+.carousel-inner {
+    height: 250px;
+}
+#btn3 {
+	border-radius: 8px;
+}
+
+
+/* SERVICES CARD*/
+.card {
+	transition: 1.2s;
+}
+.card:hover {
+ box-shadow: 0px 13px 19px 9px rgba(214,130,130,1);
+ -webkit-box-shadow: 0px 13px 19px 9px rgba(214,130,130,1);
+ -moz-box-shadow: 0px 13px 19px 9px rgba(214,130,130,1);
+}
+.card-body > a {
+	margin-left: 50px;
+}
+
+.card-body {
+	background: rgb(112, 101, 101);
+}
+/* .accordion-item:first-of-type .accordion-button {
+	background-color: rgb(197, 101, 101);
+	color: white;
+} */

@@ -10,15 +10,31 @@
 .navbar-brand > span {
     color: rgb(71, 66, 66);
 }
-.dropdown-menu .dropdown-item:hover {
-	background-color: rgb(63, 59, 59);
-} 
-.carousel-inner {
-    height: 250px;
-}
+
 #btn3 {
 	border-radius: 8px;
 }
+
+.heroImage {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("https://images.unsplash.com/photo-1579966434689-366396b4963c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1439&q=80");
+	max-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.heroContents {
+	padding-top: 300px;
+	text-align: center;
+	color: white;
+}
+.bookButton {
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+  }
 
 
 /* SERVICES CARD*/
